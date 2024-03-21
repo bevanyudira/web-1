@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ptm 6</title>
+</head>
+<style>
+    .container {
+        border: 2px;
+        border-color: rgb(255, 0, 0);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: column wrap;
+
+    }
+    .container div {
+        border: 2px;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+    }
+</style>
+<body>
+    <div class="container">
+        <div>Elemen 1</div> <!-- Ini akan dipengaruhi oleh aturan CSS .container div -->
+        <div>Elemen 2</div> <!-- Ini juga akan dipengaruhi oleh aturan CSS .container div -->
+    </div>
+    
+</body>
+</html>
